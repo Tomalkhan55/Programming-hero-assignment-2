@@ -26,7 +26,8 @@ body {
 }
 
 .nav-bar ul li {
-    margin-right: 2.5rem;
+    /* margin-right: 2.5rem; */
+    padding-left: 2rem;
 }
 
 .black-title {
@@ -58,4 +59,186 @@ body {
     font-family: Mulish;
     font-size: 18px;
     font-weight: 700;
+}
+
+/* /* banner section */
+.banner {
+    background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+    margin: 50px 130px;
+
+}
+
+.banner-header {
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 4rem;
+    text-align: center;
+    padding-top: 100px;
+    font-weight: 800;
+}
+
+.banner-des {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-left: 240px;
+    margin-right: 240px;
+}
+
+.btn-field {
+    text-align: center;
+
+    gap: 15px;
+    border: 0;
+}
+
+.btn-1,
+.btn-2,
+.btn-3,
+.common-btn {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FFF;
+
+}
+
+.common-btn {
+    background: #FF5400;
+}
+
+@media screen and (max-width: 576px) {
+    .nav-ber-section {
+        flex-direction: column;
+        width: 100%;
+    }
+}
+
+/* tour-details */
+
+.tour-details {
+    display: flex;
+    margin: 50px 130px;
+}
+
+.tour-heading {
+    font-size: 40px;
+}
+
+.tour-des p {
+    font-size: 1rem;
+}
+
+.des-btn {
+    color: #FFF;
+    border-radius: 8px;
+    background: #FF5400;
+    padding: 15px 20px;
+
+}
+
+.des-content {
+    text-align: center;
+}
+
+.mal {
+    background-image: url('../Images/Rectangle\ 5.png');
+    background-repeat: no-repeat;
+    padding: 130px 230px;
+    color: #FFF;
+    font-size: 28px;
+}
+
+.indo {
+    background-image: url('../Images/Rectangle\ 8.png');
+    background-repeat: no-repeat;
+    padding: 130px 230px;
+    color: #FFF;
+    font-size: 28px;
+}
+
+.firstline {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 130px;
+    justify-content: center;
+}
+
+.second-line {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-around;
+    padding: 0px 130px;
+    gap
+}
+
+.sri {
+    background-image: url('../Images/Rectangle\ 6.png');
+    background-repeat: no-repeat;
+    padding: 125px 130px;
+    color: #FFF;
+}
+
+.north {
+    background-image: url('../Images/Rectangle\ 7.png');
+    background-repeat: no-repeat;
+    padding: 125px 135px;
+    color: #FFF;
+}
+
+.kash {
+    background-image: url('../Images/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    padding: 125px 130px;
+    color: #FFF;
+}
+
+.third-line {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 20px 130px;
+
+}
+
+.bd {
+    background-image: url(../Images/Rectangle\ 11.png);
+    background-repeat: no-repeat;
+    padding: 125px 130px;
+    color: #FFF;
+    font-size: 28px;
+}
+
+.bandor {
+    background-image: url('../Images/Rectangle\ 10.png');
+    background-repeat: no-repeat;
+    padding: 125px 130px;
+    color: #FFF;
+    font-size: 28px;
+}
+
+.why {
+    text-align: center;
+
+}
+
+.why-title {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.why-des {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
 }
